@@ -18,12 +18,12 @@
 
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
-  
+
 }
 
 .button {
     background: none repeat scroll 0 0 #45ac9d;
-    
+
 }
 
 .blog-post {
@@ -85,5 +85,39 @@
   height: auto;
 }
 
-	
+/*homepage case studies*/
 
+.featured-work h3 {
+	text-align: center;
+}
+
+.individual-featured-work {
+	list-style-type: none;
+}
+
+
+.individual-featured-work figure {
+	text-align: center;
+}
+
+/*case study archive*/
+
+.case-study-images {
+  display: block;
+  margin-bottom: 50px;
+  border: 1px solid #dddddd
+  width: 600px;
+  height: auto;
+}
+
+.case-study-sidebar {
+  float: left;
+  width: 300px;
+  margin: 0 50px 0 0;
+}
+
+.case-study-sidebar h6 {
+  font-size: 14px;
+  color: #909090;
+  font-weight: bold;
+}
